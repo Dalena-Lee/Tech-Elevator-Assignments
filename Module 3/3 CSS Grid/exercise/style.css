@@ -1,0 +1,240 @@
+* {
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin-left: 7%;
+    margin-right: 7%;
+    background-color: rgba(192, 192, 192, 0.1);
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h1#headline {
+    font-size: 4em;
+    margin-top: 0.15em;
+    margin-bottom: 0.15em;
+    color: #505355;
+    border-bottom: solid 1px black;
+    grid-area: Header;
+}
+
+h2 {
+    font-size: 1.8em;
+    line-height: 1.45em;
+}
+
+h3 {
+    font-size: 1em;
+    color: #00ADEE;
+}
+
+header img {
+    height: 25px;
+}
+
+.student-gray {
+    color: #505355;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+#main-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 1fr;
+    grid-template-areas: 
+    "Header Header Picture"
+    "Quote Quote Picture"
+    "Profile Profile Contact"
+    "Experience Experience Experience";
+    display: grid;
+    row-gap: 20px;
+    column-gap: 50px;
+    align-items: center;
+}
+
+#student-picture img{
+    border-radius: 50%;
+}
+
+#student-picture {
+    grid-area: Picture;
+    text-align: center;
+    justify-self: center;
+}
+
+#student-quote {
+    grid-area: Quote;
+}
+
+#student-profile {
+    grid-area: Profile;
+}
+
+#student-contact {
+    grid-area: Contact;
+    text-align: center;
+    justify-self: center;
+}
+
+#experience-grid {
+    display: grid;
+    grid-area: Experience;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px 1fr;
+    grid-template-areas: 
+    "Code Code"
+    "Database Database"
+    "Web Design";
+    row-gap: 20px;
+    column-gap: 50px;
+}
+
+#experience-code {
+    grid-area: Code;
+}
+
+#experience-database {
+    grid-area: Database;
+}
+
+#experience-web {
+    grid-area: Web;
+}
+
+#experience-design {
+    grid-area: Design;
+}
+
+@media only screen and (max-width: 1024px) {
+    #main-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "Header Header"
+        "Quote Picture"
+        "Quote Contact"
+        "Profile Profile"
+        "Experience Experience";
+        display: grid;
+        row-gap: 20px;
+        column-gap: 35px;
+    }
+
+    #student-picture {
+        grid-area: Picture;
+    }
+    
+    #student-quote {
+        grid-area: Quote;
+    }
+    
+    #student-profile {
+        grid-area: Profile;
+    }
+    
+    #student-contact {
+        grid-area: Contact;
+    }
+    
+    #experience-grid {
+        display: grid;
+        grid-area: Experience;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "Code Web"
+        "Database Design";
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+    
+    #experience-code {
+        grid-area: Code;
+    }
+    
+    #experience-database {
+        grid-area: Database;
+    }
+    
+    #experience-web {
+        grid-area: Web;
+    }
+    
+    #experience-design {
+        grid-area: Design;
+    }
+  }
+
+  
+@media only screen and (max-width: 450px) {
+    #main-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "Header"
+        "Picture"
+        "Contact"
+        "Quote"
+        "Profile"
+        "Experience";
+        display: grid;
+        row-gap: 20px;
+        column-gap: 35px;
+    }
+
+    #student-picture {
+        grid-area: Picture;
+    }
+    
+    #student-quote {
+        grid-area: Quote;
+    }
+    
+    #student-profile {
+        grid-area: Profile;
+    }
+    
+    #student-contact {
+        grid-area: Contact;
+    }
+    
+    #experience-grid {
+        display: grid;
+        grid-area: Experience;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "Code"
+        "Web"
+        "Database"
+        "Design";
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+    
+    #experience-code {
+        grid-area: Code;
+    }
+    
+    #experience-database {
+        grid-area: Database;
+    }
+    
+    #experience-web {
+        grid-area: Web;
+    }
+    
+    #experience-design {
+        grid-area: Design;
+    }
+  }

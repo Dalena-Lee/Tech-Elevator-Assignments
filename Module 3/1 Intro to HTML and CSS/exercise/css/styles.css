@@ -1,0 +1,118 @@
+body {
+    font-family: Garamond;
+    background-color: black;
+  }
+  
+  #main {
+    background-color: black;
+  }
+  
+  #description {
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  header {
+    font-family: Friz Quadrata Std, sans-serif;
+    text-align: center;
+    font-size: 110px;
+  }
+
+  th, tr {
+    font-family: Friz Quadrata Std, sans-serif;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  #subheader2 {
+    font-family: Friz Quadrata Std, sans-serif;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .yellow-text {
+    color: #E3D09C;
+  }
+  
+  .white-text {
+    color: #F5EFDC;
+  }
+
+  #quotes-section {
+    color: #F5EFDC;
+    text-align: center;
+  }
+
+  #links-section {
+    color: #F5EFDC;
+    text-align: center;
+  }
+
+  h1, h2 {
+    color: #F5EFDC;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+  }
+
+  h2 {
+    text-decoration: underline;
+  }
+
+  h3 {
+    color: #F5EFDC;
+    font-style: italic; 
+  }
+  
+  #image {
+    max-width: 400px;
+    height: 200px;
+  }
+
+  #image2 {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  #img-div {
+    text-align: center;
+  }
+  
+  #subheader {
+    text-align: center;
+    font-size: 30px;
+    }
+
+  #center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  table {    
+    border: 1px solid black;  
+    margin-left: auto;  
+    margin-right: auto;  
+    border-collapse: collapse;    
+    width: 500px;  
+    text-align: center;  
+    font-size: 20px;  
+    }    
+  
+  #indie-info {
+    font-size: 20px;
+    font-family: Garamond;
+    font-weight: normal;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;  
+  }
+  
+  a {
+    color: #F5EFDC;
+    text-align: center;
+  }
+  
+  
+  
+  

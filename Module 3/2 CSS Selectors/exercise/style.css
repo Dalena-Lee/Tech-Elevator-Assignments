@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: rgba(192, 192, 192, 0.1);
+}
+
+main {
+  margin-left: 220px;
+  padding-left: 220px;
+  padding-right: 20px;
+}
+
+section div {
+  width: 33%;
+  display: inline-block;
+  
+}
+
+section div#our-work {
+  border-right-color: rgba(170,239, 135, 0.8);
+  border-right-style: solid;
+  border-right-width: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+section div#what-we-do {
+  border-right-color: rgba(170,239, 135, 0.8);
+  border-right-style: solid;
+  border-right-width: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 1px;
+  padding-top: 35px;
+  margin-top: 35px;
+}
+
+section div#contact-us {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+section h2{
+  color: rgb(140, 195, 111);
+}
+
+section div h2 i {
+  padding-right: 35px;
+  margin-right: 35px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom-color: rgba(0, 173, 238, 0.4);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  width: fit-content;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  }
+
+  li:first-child {
+    text-decoration-line: underline;
+  }
+
+img {
+  height: 120px;
+  width: 120px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+img.banner {
+  width: 1280px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  font-weight: bold;
+  color: #00ADEE;
+  text-decoration-line: none;
+}
+
+li:last-child a{
+  text-decoration-line: none;
+}
+
+header img {
+  height: 100px;
+  margin-bottom: 35px;
+  padding-bottom: 35px;
+}
+
+aside {
+  width: 200px;
+  height: 100%;
+  border-right-color: rgba(0, 173, 238, 0.4);
+  border-right-style: solid;
+  border-right-width: 1px;
+  position: fixed;
+}
